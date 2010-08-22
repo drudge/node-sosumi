@@ -1,5 +1,5 @@
 
-# Susumi - Find My Phone support for node.js
+# Susumi - Use Find My Phone services from your node.js apps
 
 Find My Phone support for Nodejs. This allows you to programmatically retrieve your phone's current location and push messages (and an optional alarm) to the remote device, or even remotely lock the device.
 

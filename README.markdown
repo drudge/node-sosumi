@@ -26,8 +26,8 @@ Event handling is optional
  
         if (devices != null) {
             // Blast a message out to all your registered devices
-            for (var deviceIndex = 0; deviceIndex < devices.length; deviceIndex++) {
-                fmiService.sendMessage('This is a test of the emergency broadcast system.', false, deviceIndex, 'Important Message');
+            for (var i = 0; i < devices.length; i++) {
+                fmiService.sendMessage('This is a test of the emergency broadcast system.', false, i, 'Important Message');
                 
                 // We can grab an event when a specific message has been sent
                 fmiService.on('messageSent', function (content) {

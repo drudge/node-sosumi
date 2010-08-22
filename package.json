@@ -1,0 +1,24 @@
+{ "name" : "sosumi"
+, "description" : "API for interacting with Find My iPhone Service in node"
+, "version" : "0.2.0"
+, "homepage" : "http://github/drudge/node-sosumi"
+, "author" : "Nicholas Penree <drudge@conceited.net> (http://penree.com)"
+, "contributors" :
+  [ "Tyler Hall <tylerhall@gmail.com> (http://github.com/tylerhall/sosumi)" ]
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/drudge/node-sosumi.git"
+  }
+, "bugs" :
+  { "mail" : "drudge@conceited.net"
+  , "web" : "http://github.com/drudge/node-sosumi/issues"
+  }
+, "directories" : { "lib" : "./lib" }
+, "main" : "./lib/sosumi"
+, "engines" : { "node" : ">=0.1.103" }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/drudge/node-sosumi/raw/master/LICENSE"
+    }
+  ]
+}

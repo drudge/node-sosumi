@@ -1,7 +1,9 @@
 
 # Susumi - Find My Phone support for node.js
 
-Find My Phone support for Nodejs. This is essentially a port of Tyler Hall's [PHP Sosumi Class](http://github.com/tylerhall/sosumi).
+Find My Phone support for Nodejs. This allows you to programmatically retrieve your phone's current location and push messages (and an optional alarm) to the remote device, or even remotely lock the device.
+
+This is essentially a port of Tyler Hall's [PHP Sosumi Class](http://github.com/tylerhall/sosumi).
 
 ## Installation
 

@@ -14,7 +14,7 @@ This is essentially a port of Tyler Hall's [PHP Sosumi Class](http://github.com/
 
 ## Examples
 
-Event handling is optional
+Event handling is optional, but sexy time.
 
     var sys = require('sys'),
         Sosumi = require('sosumi'),
